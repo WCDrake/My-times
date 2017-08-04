@@ -1,3 +1,7 @@
+body{
+  width: 100%;
+}
+
 /* HEADER */
 #header{
  font-family: Verdana;
@@ -7,6 +11,9 @@
  align-items: center;
  border-bottom: 1px solid black;
  padding-bottom: 5px;
+ position: fixed;
+ background-color: white;
+ margin:0px 0px 10px 0px;
 
 }
 
@@ -42,8 +49,12 @@
 
 
 /*BODY*/
+
+
+/*POSITIONING*/
 #body{
   display:flex;
+  margin-top: 20px;
 }
 
 #bodyleft{
@@ -80,16 +91,79 @@
   width: 240px;
   margin: 5px;
 }
+
+/* TITLES */
+
+#mothertitle{
+  text-align: center;
+  align-items: center;
+
+}
+#orca{
+  font-weight: bold;
+  font-size: 40px;
+
+}
+
+#burger{
+  font-weight: bold;
+  font-size: 30px;
+
+}
+
+  /*BITES*/
+
 #bites{
   font-size: 16px;
   font-weight: bold;
   text-align: center;
 }
 
+#bites-p{
+  background-color: WhiteSmoke;
+ font-family: Verdana;
+ font-size: 12px;
+ color: DimGray;
+}
+
+#youtube{
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
 
 
+}
+
+#advertising{
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+#Finally{
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+/* Footer */
+#myfooter{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 3px solid white;
+
+}
 
 
+footer{
+  height: 200px;
+  position: relative;
+  top: 150px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  text-align: center;
+}
 /*Pictures*/
 
 #mothertitle{
@@ -101,6 +175,7 @@
   background-size: cover;
   padding-bottom: 100px;
   margin-top: 0px;
+
 }
 
 #earth{
